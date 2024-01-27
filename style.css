@@ -1,0 +1,227 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 15px;
+    width: 1800px;
+    height: 43px;
+  }
+  .header-item{
+    text-align: right;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 180px;
+    align-items: center;
+    gap: 233px;
+  }
+  .main-header{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 50px;
+    font-weight: 700;
+    width: 506px;
+    height: 105px;
+  }
+  .main-text{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 400;
+    width: 597px;
+    height: 66px;
+    margin-top: 60px;
+  }
+  .download-resume-container{
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    background: var(--Primary, #FF6464);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .download-resume{
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 500;
+    width: 167px;
+    height: 30px;
+  }
+  .man-image{
+    width: 300px;
+    height: 300px;
+  }
+  .blue-container{
+    max-width: 100%;
+    height: 500px;
+    background-color: #EDF7FA; 
+    margin-top: 80px;   
+  }
+  .blue-container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .blue-container-header-left{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .blue-container-header-right{
+    color: var(--Secondry, #00A8CC);
+    text-align: right;
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    width: 208px;
+    height: 20px;
+    margin-top: 20px;
+  }
+  .full-text-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;  }
+  .text-container{
+    width: 500px;
+    height: 377px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);    
+    margin-top: 15px;
+    padding-left: 40px;
+  }
+  .text-container-header{
+    width: 374px;
+    height: 85px;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+  }
+  .data-container{
+    width: 374px;
+    height: 34px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    gap: 10px;
+  }
+  .data-item{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .text-container-item{
+    width: 468px;
+    height: 117px;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  .main2{
+    margin-left:355px;
+    margin-top: 20px;
+  }
+  .featured{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;    
+  }
+  .featured-line{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  .featured-item-header{
+    width: 374px;
+    height: 65px;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .data-container2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .container2020{
+    width: 62px;
+    height: 25px;
+    border-radius: 16px;
+    background: #142850;   
+    display: flex;
+    justify-content: center;     
+  }
+  .item2020{
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .dashboard{
+    color: var(--Light, #8695A4);
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 400;
+    width: 374px;
+    height: 34px;
+  }
+  .text-container-item2{
+    width: 700px;
+    height: 117px;
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  hr{
+    width: 1100px;
+    stroke-width: 1px;
+    stroke: var(--Gray-5, #E0E0E0);
+    margin-top: 7px;
+  }
+  .social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 135px;
+  }
+  .footer-text{
+    display: flex;
+    justify-content: center;
+    color: var(--Dark, #21243D);
+    text-align: center;
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+    height: 100px;
+  }
